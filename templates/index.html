@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/lin" method="post">
+        <p><label style="font-weight: bold;" for="fname">air_pressure_9am :</label>
+        <input placeholder="Enter air_pressure_9am" type="text" id="air_pressure_9am" name="air_pressure_9am"></p>
+        
+        <p><label style="font-weight: bold;" for="lname">air_temp_9am :</label>
+        <input placeholder="Enter air_temp_9am" type="text" id="air_temp_9am" name="air_temp_9am"></p>
+        
+        <p><label style="font-weight: bold;" for="lname">avg_wind_direction_9am :</label>
+        <input placeholder="Enter avg_wind_direction_9am" type="text" id="avg_wind_direction_9am" name="avg_wind_direction_9am"></p>
+        
+        <p><label style="font-weight: bold;" for="lname">avg_wind_speed_9am :</label>
+        <input placeholder="Enter avg_wind_speed_9am" type="text" id="avg_wind_speed_9am" name="avg_wind_speed_9am"></p>
+        
+        <p><label style="font-weight: bold;" for="lname">max_wind_direction_9am :</label>
+        <input placeholder="Enter max_wind_direction_9am" type="text" id="max_wind_direction_9am" name="max_wind_direction_9am"></p>
+
+        <p><label style="font-weight: bold;" for="lname">max_wind_speed_9am :</label>
+            <input placeholder="Enter max_wind_speed_9am" type="text" id="max_wind_speed_9am" name="max_wind_speed_9am"></p>
+        
+        <p><label style="font-weight: bold;" for="lname">rain_accumulation_9am :</label>
+        <input placeholder="Enter rain_accumulation_9am" type="text" id="rain_accumulation_9am" name="rain_accumulation_9am"></p>
+
+        <p><label style="font-weight: bold;" for="lname">rain_duration_9am :</label>
+        <input placeholder="Enter rain_duration_9am" type="text" id="rain_duration_9am" name="rain_duration_9am"></p>
+
+        <p><label style="font-weight: bold;" for="lname">relative_humidity_9am :</label>
+        <input placeholder="Enter relative_humidity_9am" type="text" id="relative_humidity_9am" name="relative_humidity_9am"></p>
+
+
+        <p><input type="submit" value="Register"></p>
+    </form>
+
+    <p>result is: {{prediction}}</p>
+</body>
+</html>
