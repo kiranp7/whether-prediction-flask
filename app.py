@@ -49,12 +49,9 @@ def chrn():
     arr=arr.astype(np.float64)
     pred = regressorr.predict([arr])
 
-    if pred == 1:
-        result="yes"
-    else :
-        result="no"
+    
 
-    return render_template('index.html',prediction = result)
+    return render_template('index.html',prediction = pred)
 
 
 if __name__=='__main__':
